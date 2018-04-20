@@ -1,0 +1,255 @@
+# Page settings
+
+baseurl = "/"
+languageCode = "en-us"
+title = "Houston Perrett Resume"
+theme = "hugo-orbit-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableKinds=["404", "RSS", "sitemap"]
+
+[params]
+
+# Meta
+    description = "Resume for Houston Perrett"
+    author = "Houston Perrett"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Houston Perrett, ASA"
+        tagline = "Actuary. Developer."
+        tagline2 = "Tech Enthusiast."
+        avatar = "headshot.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: h@houstonp.com"
+        title = "h@houstonp.com"
+
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "houstonp.com"
+        title = "houstonp.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "linkedin.com/in/HoustonPerrett"
+        title = "My LinkedIn"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "github.com/HoustonWP"
+        title = "My GitHub"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "twitter.com/HoustonPerrett"
+        title = "@HoustonPerrett"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Bachelor of Science in Mathematics and Actuarial Science"
+        college = "University of Nebraska-Lincoln"
+        dates = "2010 - 2014"
+
+
+    # Languages section
+    [params.language]
+        enable = false
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "Russian"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Actuarial Exams"
+
+        [[params.interests.list]]
+        interest = "P"
+
+        [[params.interests.list]]
+        interest = "FM"
+
+        [[params.interests.list]]
+        interest = "MFE"
+
+        [[params.interests.list]]
+        interest = "C"
+
+        [[params.interests.list]]
+        interest = "MLC"
+
+        [[params.interests.list]]
+        interest = "FAP"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = false
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "Actuarial Associate"
+        dates = "June 2017 - Present"
+        company = "Principal Financial Group"
+        location = "Des Moines, IA"
+        details = ["Forecast foreign exchange rates for monthly reporting and assessment of financial impact.",
+                    "Review quarterly actuarial certifications and shadow adequacy reserves for accuracy.",
+                    "Consolidate and report Chile monthly financial results at a high level to the actuarial team.",
+                    "Consult with local teams in Chile on changes in regulations and guidance related to US GAAP and IFRS.",
+                    "Perform annual compliance testing on US and UK goodwill impairment, deferred income liability, and DAC useful life.",
+                    "Coordinate with the local forecasting team in Chile on financial assumptions used for five year board projections.",
+                    "Generate deterministic and stress scenarios for forecasting and economic capital calculations."]
+
+        [[params.jobs.list]]
+        position = "Actuarial Assistant"
+        dates = "February 2015 - June 2017"
+        company = "Principal Financial Group"
+        location = "Des Moines, IA"
+        details = ["Redesigned lapse, mortality, and expense experience studies implementing SQL and SAS to reduce quarterly and annual reporting time.",
+                    "Designed and optimized SQL queries to pull policy data required by regulator, organization, and reinsurer data requests.",
+                    "Modeled policy cash flows using MG-ALFA to ensure products met illustration regulation testing guidelines.",
+                    "Assessed possible MEC, force out, and recapture events and calculated values for policies with possible violations of life insurance taxation under Section 7702 and Section 7702A.",
+                    "Provided individual policy illustration support on complex scenarios not able to be completed by the illustration system.",
+                    "Coordinated with IT partners on new database implementations and ETL processes."]
+
+        [[params.jobs.list]]
+        position = "Actuarial Intern"
+        dates = "Summer 2014"
+        company = "Principal Financial Group"
+        location = "Des Moines, IA"
+        details = ["Evaluated pricing and expense assumptions on guaranteed investment contracts.",
+                    "Audited and tested custom designed pricing model written in Visual Basic."]
+
+        [[params.jobs.list]]
+        position = "Actuarial Intern"
+        dates = "Summer 2013"
+        company = "Berkshire Hathaway Homestate Companies"
+        location = "Omaha, NE"
+        details = ["Filed commercial trucking rates with the Texas state regulator."]
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Excel"
+        level = "98%"
+                
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "SAS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "VBA"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "R"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "F#"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Houston Perrett"
