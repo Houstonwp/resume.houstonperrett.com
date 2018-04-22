@@ -54,13 +54,13 @@ disableKinds=["404", "RSS", "sitemap"]
         class = "linkedin"
         icon = "fa-linkedin"
         url = "linkedin.com/in/HoustonPerrett"
-        title = "My LinkedIn"
+        title = "LinkedIn.com"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
         url = "github.com/HoustonWP"
-        title = "My GitHub"
+        title = "GitHub.com"
 
         [[params.contact.list]]
         class = "twitter"
