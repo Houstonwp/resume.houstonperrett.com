@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "/"
+baseurl = "https://resume.houstonp.com/"
 languageCode = "en-us"
 title = "Houston Perrett Resume"
 theme = "hugo-orbit-theme"
@@ -40,7 +40,7 @@ disableKinds=["404", "RSS", "sitemap"]
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: h@houstonp.com"
+        url = "mailto: hp@houstonperrett.com"
         title = "h@houstonp.com"
 
 
