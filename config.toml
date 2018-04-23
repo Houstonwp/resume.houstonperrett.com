@@ -4,7 +4,7 @@ baseurl = "https://resume.houstonp.com/"
 languageCode = "en-us"
 title = "Houston Perrett Resume"
 theme = "hugo-orbit-theme"
-#googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-67480960-1"
 
 # Do not build files for websites. Need them? Set to false
 disableKinds=["404", "RSS", "sitemap"]
