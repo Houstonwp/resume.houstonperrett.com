@@ -47,25 +47,25 @@ disableKinds=["404", "RSS", "sitemap"]
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "houstonp.com"
+        url = "//houstonp.com"
         title = "houstonp.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "linkedin.com/in/HoustonPerrett"
+        url = "//linkedin.com/in/HoustonPerrett"
         title = "LinkedIn.com"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "github.com/HoustonWP"
+        url = "//github.com/HoustonWP"
         title = "GitHub.com"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "twitter.com/HoustonPerrett"
+        url = "//twitter.com/HoustonPerrett"
         title = "@HoustonPerrett"
 
     # Education section
