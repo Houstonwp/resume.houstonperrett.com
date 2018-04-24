@@ -239,6 +239,14 @@ disableKinds=["404", "RSS", "sitemap"]
         level = "75%"
 
         [[params.skills.list]]
+        skill = "MoSes"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "MG-AFLA"
+        level = "60%"
+
+        [[params.skills.list]]
         skill = "HTML5 & CSS"
         level = "60%"
 
