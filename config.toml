@@ -28,7 +28,7 @@ disableKinds=["404", "RSS", "sitemap"]
 
     # Profile section
     [params.profile]
-        name = "Houston Perrett, ASA"
+        name = "Houston Perrett, ASA, CERA"
         tagline = "Actuary. Developer."
         tagline2 = "Tech Enthusiast."
         avatar = "headshot.jpg"
@@ -40,9 +40,8 @@ disableKinds=["404", "RSS", "sitemap"]
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: hp@houstonperrett.com"
-        title = "h@houstonp.com"
-
+        url = "mailto: hp@houstonp.com"
+        title = "hp@houstonp.com"
 
         [[params.contact.list]]
         class = "website"
