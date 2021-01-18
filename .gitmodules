@@ -1,0 +1,3 @@
+[submodule "themes/simple-resume"]
+	path = themes/simple-resume
+	url = https://github.com/houstonwp/simple-resume.git
