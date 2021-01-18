@@ -1,0 +1,65 @@
+name = "Houston Perrett, ASA, CERA"
+email = "hp@houstonp.com"
+phone = "7123018998"
+location = "Des Moines, IA"
+#website = "houstonp.com"
+github = "Houstonwp"
+#objective = "Always do what's next"
+
+[[schools]]
+name = "University of Nebraska-Lincoln"
+#location = "Lincoln, NE"
+graddate = "2014"
+degrees = ["Bachelor of Science, Mathematics and Actuarial Science"]
+
+[[experiences]]
+position = "Actuarial Associate"
+company = "Principal Financial Group"
+location = "Fixed Annuities"
+startdate = "Jun 2019"
+#enddate = ""
+points = [
+  "Train and supervise an intern through process improvement projects.", 
+  "Analyze and attribute changes in reserve sufficiency of $20 billion block of annuity business.", 
+  "Test annuity block for loss recognition, and establish shadow reserves.", 
+  "Coordinate with underwriting staff on pricing of large pension risk transfer cases.", 
+  "Recommend derivative trades in order to keep the $6 billion immediate annuity block within interest rate mismatch risk tolerances."
+]
+
+[[experiences]]
+position = "Actuarial Associate"
+company = "Principal Financial Group"
+location = "Principal International"
+startdate = "Jun 2017"
+enddate = "Jun 2019"
+points = [
+  "Forecasted foreign exchange rates for monthly reporting and assessment of financial impact.",
+  "Reviewed quarterly actuarial certifications and reserve sufficiency for accuracy.", 
+  "Consolidated and reported monthly financial results.",
+  " Consulted on potential impact of changes in regulations and guidance related to US GAAP and IFRS.",
+  "Completed annual compliance testing on US and UK goodwill impairment, deferred income liability, and DAC useful life.",
+  "Reviewed five year projection financial assumptions.", 
+  "Generated deterministic and stress scenarios for economic capital calculations."
+]
+
+[[experiences]]
+position = "Actuarial Assistant"
+company = "Principal Financial Group"
+location = "Individual Life Inforce Management"
+startdate = "Feb 2015"
+enddate = "Jun 2017"
+points = [
+  "Completed quarterly lapse, mortality, and expense experience studies.",
+  "Compiled policy data required by internal and external stakeholders.", 
+  "Modeled policy cash flows to ensure products met illustration regulation testing guidelines.", 
+  "Assessed and calculated values for policies with possible violations of life insurance taxation regulations.", 
+  "Provided individual policy illustration support for administration teams."
+]
+
+
+[[info]]
+name = "Technologies"
+points = [
+  "**Languages:** Python, R, SAS, SQL",
+  "**Softwares:** Excel, MG-ALFA, Power BI"
+]
