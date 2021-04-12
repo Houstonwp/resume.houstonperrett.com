@@ -19,11 +19,14 @@ location = "Fixed Annuities"
 startdate = "Jun 2019"
 #enddate = ""
 points = [
-  "Train and supervise an intern through process improvement projects.", 
-  "Analyze and attribute changes in reserve sufficiency of $20 billion block of annuity business.", 
-  "Test annuity block for loss recognition, and establish shadow reserves.", 
-  "Coordinate with underwriting staff on pricing of large pension risk transfer cases.", 
-  "Recommend derivative trades in order to keep the $6 billion immediate annuity block within interest rate mismatch risk tolerances."
+  "Led multiple interns through pricing and automation projects in Python and R.",
+  "Developed machine learning models using R to analyze Pension Risk Transfer mortality.",
+  "Led development of payout annuity pricing models in R.",
+  "Performed code and peer review of Pension Risk Transfer machine learning mortality model.",
+  "Completed valuation model conversions to MG-ALFA.",
+  "Developed ETL processes to automatically query inforce policies, run valuation models, and analyze results.",
+  "Co-developed a bond optimization program leading to $50 million in additional revenue.",
+  "Recommended derivative trades in order to keep the $6 billion immediate annuity block within interest rate mismatch risk tolerances."
 ]
 
 [[experiences]]
@@ -33,13 +36,13 @@ location = "Principal International"
 startdate = "Jun 2017"
 enddate = "Jun 2019"
 points = [
-  "Forecasted foreign exchange rates for monthly reporting and assessment of financial impact.",
-  "Reviewed quarterly actuarial certifications and reserve sufficiency for accuracy.", 
-  "Consolidated and reported monthly financial results.",
-  " Consulted on potential impact of changes in regulations and guidance related to US GAAP and IFRS.",
+  "Forecasted foreign exchange rates for monthly reporting and assessment of financial impact. ",
+  "Reviewed quarterly actuarial certifications and reserve sufficiency for accuracy. ",
+  "Consolidated and reported monthly financial results. ",
+  "Consulted on potential impact of changes in regulations and guidance related to US GAAP and IFRS. ",
   "Completed annual compliance testing on US and UK goodwill impairment, deferred income liability, and DAC useful life.",
-  "Reviewed five year projection financial assumptions.", 
-  "Generated deterministic and stress scenarios for economic capital calculations."
+  "Generated deterministic and stress scenarios for economic capital calculations.",
+  "Reviewed five year projection financial assumptions. "
 ]
 
 [[experiences]]
@@ -49,10 +52,10 @@ location = "Individual Life Inforce Management"
 startdate = "Feb 2015"
 enddate = "Jun 2017"
 points = [
-  "Completed quarterly lapse, mortality, and expense experience studies.",
-  "Compiled policy data required by internal and external stakeholders.", 
-  "Modeled policy cash flows to ensure products met illustration regulation testing guidelines.", 
-  "Assessed and calculated values for policies with possible violations of life insurance taxation regulations.", 
+  "Designed quarterly lapse, mortality, and expense experience studies. ",
+  "Developed ETL processes to pull policy data required by internal and external stakeholders.  ",
+  "Modeled policy cash flows to ensure products met illustration regulation testing guidelines. ",
+  "Assessed and calculated values for policies with possible violations of life insurance taxation regulations. ",
   "Provided individual policy illustration support for administration teams."
 ]
 
@@ -60,6 +63,6 @@ points = [
 [[info]]
 name = "Technologies"
 points = [
-  "**Languages:** Python, R, SAS, SQL",
+  "**Languages:** Python, R, SAS, SQL, Rust",
   "**Softwares:** Excel, MG-ALFA, Power BI"
 ]
