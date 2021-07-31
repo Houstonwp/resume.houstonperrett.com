@@ -1,4 +1,4 @@
-name = "Houston Perrett, ASA, CERA"
+name = "Houston Perrett, FSA, CERA"
 email = "hp@houstonp.com"
 location = "Des Moines, IA"
 #website = "houstonp.com"
@@ -14,7 +14,7 @@ degrees = ["Bachelor of Science, Mathematics and Actuarial Science"]
 [[experiences]]
 position = "Actuarial Associate"
 company = "Principal Financial Group"
-location = "Fixed Annuities"
+location = "Pension Risk Transfer"
 startdate = "Jun 2019"
 #enddate = ""
 points = [
