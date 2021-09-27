@@ -13,7 +13,7 @@ graddate = "2014"
 degrees = ["Bachelor of Science, Mathematics and Actuarial Science"]
 
 [[experiences]]
-position = "Actuarial Associate"
+position = "Assistant Actuary"
 company = "Principal Financial Group"
 location = "Pension Risk Transfer"
 startdate = "Jun 2019"
@@ -69,6 +69,6 @@ points = [
 [[info]]
 name = "Technologies"
 points = [
-  "**Languages:** Python, R, SAS, SQL, Rust",
+  "**Languages:** Python, R, Rust, SAS, SQL",
   "**Softwares:** Excel, MG-ALFA, Power BI"
 ]
