@@ -20,13 +20,18 @@ startdate = "Jun 2019"
 #enddate = ""
 points = [
   "Led multiple interns through pricing and automation projects in Python and R.",
-  "Developed machine learning models using R to analyze Pension Risk Transfer mortality.",
-  "Led development of payout annuity pricing models in R.",
-  "Performed code and peer review of Pension Risk Transfer machine learning mortality model.",
-  "Completed valuation model conversions to MG-ALFA.",
-  "Developed ETL processes to automatically query inforce policies, run valuation models, and analyze results.",
+  "Developed machine learning models using R to analyze pension mortality.",
+  "Led development of PRT cashflow pricing models in R.",
+  "Performed code and peer review of PRT machine learning mortality model.",
+  "Completed valuation model conversions to MG-ALFA to accomodate LDTI compliance.",
+  "Developed ETL processes to query inforce policies, run valuation models, and analyze results.",
   "Co-developed a bond optimization program leading to $50 million in additional revenue.",
-  "Recommended derivative trades in order to keep the $6 billion immediate annuity block within interest rate mismatch risk tolerances."
+  "Recommended derivative trades to keep inforce annuity block within interest rate risk tolerances.",
+  "Led analysis and explanation of quarterly PRT forecasts and insights of future expectations.",
+  "Represented PRT in monthly business updates to senior management.",
+        "Recommended case specific mortality adjustments based on mortality analysis.",
+  "Led oversight of PRT in discussions with internal auditors.",
+  "Presented and influenced pricing strategies on large PRT cases to senior management."
 ]
 
 [[experiences]]
