@@ -13,11 +13,19 @@ graddate = "2014"
 degrees = ["Bachelor of Science, Mathematics and Actuarial Science"]
 
 [[experiences]]
+position = "AVP & Actuary"
+company = "Fortitude Re"
+location = "Experience Studies"
+startdate = "Jan 2022"
+#enddate = ""
+points = []
+
+[[experiences]]
 position = "Assistant Actuary"
 company = "Principal Financial Group"
 location = "Pension Risk Transfer"
 startdate = "Jun 2019"
-#enddate = ""
+enddate = "Jan 2022"
 points = [
   "Led multiple interns through pricing and automation projects in Python and R.",
   "Developed machine learning models using R to analyze pension mortality.",
@@ -29,7 +37,7 @@ points = [
   "Recommended derivative trades to keep inforce annuity block within interest rate risk tolerances.",
   "Led analysis and explanation of quarterly PRT forecasts and insights of future expectations.",
   "Represented PRT in monthly business updates to senior management.",
-        "Recommended case specific mortality adjustments based on mortality analysis.",
+  "Recommended case specific mortality adjustments based on mortality analysis.",
   "Led oversight of PRT in discussions with internal auditors.",
   "Presented and influenced pricing strategies on large PRT cases to senior management."
 ]
