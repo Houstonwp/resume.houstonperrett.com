@@ -25,7 +25,7 @@ points = [
   "Architected and implemented a Python based experience study process to improve efficiency and accuracy.",
   "Cocreated and maintain Fortitude Re's internal Python project template to standardize best practices.",
   "Give training and presentations on Python, Git, and GitHub to the actuarial community.",
-  "Given over five presentation at conferences spanning topics from COVID-19 mortality and industry trends to analytics best practices.",
+  "Presented over five presentation at conferences spanning topics from COVID-19 mortality and industry trends to analytics best practices.",
   "Interview all actuarial intern candidates and provide feedback to internship hiring leader.",
   "Brought four experience studies in-house from third party consultants without any additional headcount.",
 ]
@@ -37,8 +37,7 @@ location = "Experience Studies"
 startdate = "Jan 2022"
 enddate = "Feb 2024"
 points = [
-  "Led the Fixed Annuities Experience Studies team responsible for the production of mortality, lapse, and other experience studies.",
-  "Managed a team of consultants, entry level analysts, and interns.",
+  "Led a small team of consultants, entry level analysts, and interns responsible for the production of biometric and policyholder behavior experience studies.",
   "Presented experience study results and recommended changes in assumptions to senior management.",
   "Collaborated with pricing teams to ensure accurate reflection of experience in assumptions.",
 ]
