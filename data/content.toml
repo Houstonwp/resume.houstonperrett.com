@@ -25,6 +25,9 @@ points = [
   "Architected and implemented a Python based experience study process to improve efficiency and accuracy including a custom micro-orchestrator and caching.",
   "Cocreated and maintain Fortitude Re's internal Python project template to standardize best practices.",
   "Give training and presentations on Python, Git, and GitHub to the actuarial community.",
+  "Given over five presentation at conferences spanning topics from COVID-19 mortality and industry trends to analytics best practices.",
+  "Interview all actuarial intern candidates and provide feedback to internship hiring leader.",
+  "Brought four experience studies in-house from third party consultants without any additional headcount.",
 ]
 
 [[experiences]]
@@ -68,15 +71,7 @@ company = "Principal Financial Group"
 location = "Principal International"
 startdate = "Jun 2017"
 enddate = "Jun 2019"
-points = [
-  "Forecasted foreign exchange rates for monthly reporting and assessment of financial impact. ",
-  "Reviewed quarterly actuarial certifications and reserve sufficiency for accuracy. ",
-  "Consolidated and reported monthly financial results. ",
-  "Consulted on potential impact of changes in regulations and guidance related to US GAAP and IFRS. ",
-  "Completed annual compliance testing on US and UK goodwill impairment, deferred income liability, and DAC useful life.",
-  "Generated deterministic and stress scenarios for economic capital calculations.",
-  "Reviewed five year projection financial assumptions. ",
-]
+points = []
 
 [[experiences]]
 position = "Actuarial Assistant"
@@ -84,13 +79,7 @@ company = "Principal Financial Group"
 location = "Individual Life Inforce Management"
 startdate = "Feb 2015"
 enddate = "Jun 2017"
-points = [
-  "Designed quarterly lapse, mortality, and expense experience studies. ",
-  "Developed ETL processes to pull policy data required by internal and external stakeholders.  ",
-  "Modeled policy cash flows to ensure products met illustration regulation testing guidelines. ",
-  "Assessed and calculated values for policies with possible violations of life insurance taxation regulations. ",
-  "Provided individual policy illustration support for administration teams.",
-]
+points = []
 
 [[info]]
 name = "Leadership"
