@@ -22,7 +22,7 @@ points = [
   "Lead a team of nine actuaries and analysts including five direct reports.",
   "Oversee the production of over thirty experience studies across multiple lines of business, biometric, and policyholder behavior.",
   "Perform liability due diligence on potential reinsurance transctions including VA, RILA, and fixed annuities.",
-  "Architected and implemented a Python based experience study process to improve efficiency and accuracy including a custom micro-orchestrator and caching.",
+  "Architected and implemented a Python based experience study process to improve efficiency and accuracy.",
   "Cocreated and maintain Fortitude Re's internal Python project template to standardize best practices.",
   "Give training and presentations on Python, Git, and GitHub to the actuarial community.",
   "Given over five presentation at conferences spanning topics from COVID-19 mortality and industry trends to analytics best practices.",
