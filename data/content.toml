@@ -13,12 +13,32 @@ graddate = "2014"
 degrees = ["Bachelor of Science, Mathematics and Actuarial Science"]
 
 [[experiences]]
+position = "VP & Actuary"
+company = "Fortitude Re"
+location = "Experience Studies"
+startdate = "Feb 2024"
+#enddate = ""
+points = [
+  "Lead a team of nine actuaries and analysts including five direct reports.",
+  "Oversee the production of over thirty experience studies across multiple lines of business, biometric, and policyholder behavior.",
+  "Perform liability due diligence on potential reinsurance transctions including VA, RILA, and fixed annuities.",
+  "Architected and implemented a Python based experience study process to improve efficiency and accuracy including a custom micro-orchestrator and caching.",
+  "Cocreated and maintain Fortitude Re's internal Python project template to standardize best practices.",
+  "Give training and presentations on Python, Git, and GitHub to the actuarial community.",
+]
+
+[[experiences]]
 position = "AVP & Actuary"
 company = "Fortitude Re"
 location = "Experience Studies"
 startdate = "Jan 2022"
-#enddate = ""
-points = []
+enddate = "Feb 2024"
+points = [
+  "Led the Fixed Annuities Experience Studies team responsible for the production of mortality, lapse, and other experience studies.",
+  "Managed a team of consultants, entry level analysts, and interns.",
+  "Presented experience study results and recommended changes in assumptions to senior management.",
+  "Collaborated with pricing teams to ensure accurate reflection of experience in assumptions.",
+]
 
 [[experiences]]
 position = "Assistant Actuary"
@@ -39,7 +59,7 @@ points = [
   "Represented PRT in monthly business updates to senior management.",
   "Recommended case specific mortality adjustments based on mortality analysis.",
   "Led oversight of PRT in discussions with internal auditors.",
-  "Presented and influenced pricing strategies on large PRT cases to senior management."
+  "Presented and influenced pricing strategies on large PRT cases to senior management.",
 ]
 
 [[experiences]]
@@ -55,7 +75,7 @@ points = [
   "Consulted on potential impact of changes in regulations and guidance related to US GAAP and IFRS. ",
   "Completed annual compliance testing on US and UK goodwill impairment, deferred income liability, and DAC useful life.",
   "Generated deterministic and stress scenarios for economic capital calculations.",
-  "Reviewed five year projection financial assumptions. "
+  "Reviewed five year projection financial assumptions. ",
 ]
 
 [[experiences]]
@@ -69,19 +89,19 @@ points = [
   "Developed ETL processes to pull policy data required by internal and external stakeholders.  ",
   "Modeled policy cash flows to ensure products met illustration regulation testing guidelines. ",
   "Assessed and calculated values for policies with possible violations of life insurance taxation regulations. ",
-  "Provided individual policy illustration support for administration teams."
+  "Provided individual policy illustration support for administration teams.",
 ]
 
 [[info]]
 name = "Leadership"
 points = [
   "Member of University of Nebraska-Lincoln Actuarial Science Advisory Board",
-  "Chair of Principal Actuarial Development Program -- 2019-2020"
+  "Chair of Principal Actuarial Development Program -- 2019-2020",
 ]
 
 [[info]]
 name = "Technologies"
 points = [
   "**Languages:** Python, R, Rust, SAS, SQL",
-  "**Softwares:** Excel, MG-ALFA, Power BI"
+  "**Softwares:** Excel, MG-ALFA, Power BI",
 ]
