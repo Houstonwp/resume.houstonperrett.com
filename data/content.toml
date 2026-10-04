@@ -20,13 +20,13 @@ startdate = "Feb 2024"
 points = [
   "Lead a team of nine actuaries and analysts including five direct reports.",
   "Oversee the production of over thirty experience studies across multiple lines of business, biometric, and policyholder behavior.",
-  "Perform liability due diligence on potential reinsurance transctions including VA, RILA, and fixed annuities.",
-  "Architected and implemented a Python based experience study process to improve efficiency and accuracy.",
-  "Cocreated and maintain Fortitude Re's internal Python project template to standardize best practices.",
+  "Perform liability due diligence on potential reinsurance transactions including VA, RILA, and fixed annuities.",
+  "Architected and implemented a Python-based experience study process to improve efficiency and accuracy.",
+  "Co-created and maintain Fortitude Re's internal Python project template to standardize best practices.",
   "Give training and presentations on Python, Git, and GitHub to the actuarial community.",
-  "Presented over five presentation at conferences spanning topics from COVID-19 mortality and industry trends to analytics best practices.",
+  "Delivered over five presentations at conferences spanning topics from COVID-19 mortality and industry trends to analytics best practices.",
   "Interview all actuarial intern candidates and provide feedback to internship hiring leader.",
-  "Brought four experience studies in-house from third party consultants without any additional headcount.",
+  "Brought four experience studies in-house from third-party consultants without any additional headcount.",
 ]
 
 [[experiences]]
@@ -36,7 +36,7 @@ location = "Experience Studies"
 startdate = "Jan 2022"
 enddate = "Feb 2024"
 points = [
-  "Led a small team of consultants, entry level analysts, and interns responsible for the production of biometric and policyholder behavior experience studies.",
+  "Led a small team of consultants, entry-level analysts, and interns responsible for the production of biometric and policyholder behavior experience studies.",
   "Presented experience study results and recommended changes in assumptions to senior management.",
   "Collaborated with pricing teams to ensure accurate reflection of experience in assumptions.",
 ]
@@ -52,13 +52,13 @@ points = [
   "Developed machine learning models using R to analyze pension mortality.",
   "Led development of PRT cashflow pricing models in R.",
   "Performed code and peer review of PRT machine learning mortality model.",
-  "Completed valuation model conversions to MG-ALFA to accomodate LDTI compliance.",
+  "Completed valuation model conversions to MG-ALFA to accommodate LDTI compliance.",
   "Developed ETL processes to query inforce policies, run valuation models, and analyze results.",
   "Co-developed a bond optimization program leading to $50 million in additional revenue.",
   "Recommended derivative trades to keep inforce annuity block within interest rate risk tolerances.",
   "Led analysis and explanation of quarterly PRT forecasts and insights of future expectations.",
   "Represented PRT in monthly business updates to senior management.",
-  "Recommended case specific mortality adjustments based on mortality analysis.",
+  "Recommended case-specific mortality adjustments based on mortality analysis.",
   "Led oversight of PRT in discussions with internal auditors.",
   "Presented and influenced pricing strategies on large PRT cases to senior management.",
 ]
@@ -90,5 +90,5 @@ points = [
 name = "Technologies"
 points = [
   "**Languages:** Python, R, Rust, SAS, SQL",
-  "**Softwares:** Excel, MG-ALFA, Power BI",
+  "**Software:** Excel, MG-ALFA, Power BI",
 ]

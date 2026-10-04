@@ -1,7 +1,10 @@
 # Page settings
 
-baseURL = "https://houstonp.com/"
-languageCode = "en"
+baseURL = "https://resume.houstonp.com/"
+locale = "en-US"
 title = "Houston Perrett Resume"
 theme = "simple-resume"
 disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Resume of Houston Perrett, FSA, CERA."
