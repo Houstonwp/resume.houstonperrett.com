@@ -13,10 +13,14 @@
   .heading-line { flex-wrap: wrap; gap: 0 1rem; }
 }
 @media print {
+  html { zoom: 1; }
+  h1 { font-size: 32px; }
   body { margin: 0; padding: 0; }
   .box { width: auto; box-shadow: none; }
   .box::before, .box::after { display: none; }
-  .wrap { max-width: none; }
+  .wrap { max-width: none; padding: 0.15in 0.25in; }
+  .heading-line { gap: 1rem; }
+  .heading-line h3:last-child { flex-shrink: 0; white-space: nowrap; }
   h2, .heading-line { break-after: avoid; }
   li { break-inside: avoid; }
 }
