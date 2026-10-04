@@ -1,0 +1,7 @@
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  # Extended build is required by the pinned theme's LibSass pipeline.
+  HUGO_VERSION = "0.167.0"

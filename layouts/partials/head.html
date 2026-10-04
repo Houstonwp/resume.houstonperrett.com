@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <title>{{ .Site.Title }}</title>
+
+  {{- /* Keep the pinned fork's Sass styling; migrate it separately before LibSass removal. */ -}}
+  {{ $style := resources.Get "main.scss" | css.Sass (dict "transpiler" "libsass") }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{ $responsive := resources.Get "responsive.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $responsive.RelPermalink }}" integrity="{{ $responsive.Data.Integrity }}">
+
+  <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+</head>
